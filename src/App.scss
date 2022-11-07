@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.app {
+
+    text-align: center;
+
+    main {
+        padding: 70px 20px;
+        text-align: center;
+        background-image: url("https://i.pinimg.com/originals/49/52/ac/4952ac9fb817c29f87776f25ad7a59ef.jpg");
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    h1 {
+       background-color: rgba(155, 226, 246, 0.535);
+    }
+
+    .projects {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        color: whitesmoke;
+        padding-inline: 100px;
+        background-color: rgba(0, 0, 0, 0.901);
+        display: flex;
+        justify-content: space-around;
+    }
+}
