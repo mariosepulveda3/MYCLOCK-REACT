@@ -1,12 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import './CountDown.scss';
+import "./CountDown.scss";
 
 const CountDown = () => {
   const [time, setTime] = useState("");
   useEffect(() => {
-    let countDownDate = new Date("Nov 10, 2022 00:00:00").getTime();
+    let countDownDate = new Date("Dec 07, 2022 00:00:00").getTime();
     let x = setInterval(() => {
       let now = new Date().getTime();
       let distance = countDownDate - now;
@@ -25,10 +25,12 @@ const CountDown = () => {
       }
     }, 1000);
   }, []);
-  return <div className="countdown">
-    <h2>Count Down</h2>
-    <p>{time}</p>
-  </div>;
+  return (
+    <div className="countdown">
+      <h2>Count Down</h2>
+      <p>{time}</p>
+    </div>
+  );
 };
 
 export default CountDown;

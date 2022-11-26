@@ -1,24 +1,24 @@
 .stop-watch {
-    text-align: center;
+  text-align: center;
 
-    h2 {
-        color: white;
-    }
+  h2 {
+    color: white;
+  }
 
-    p {
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        padding: 50px;
-        background-color: rgba(194, 194, 194, 0.76);
-        border-radius: 50px;
-        border: solid rgba(128, 0, 128, 0.832);
-    }
+  p {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    background-color: rgba(194, 194, 194, 0.76);
+    border-radius: 50px;
+    border: solid rgba(128, 0, 128, 0.832);
+  }
 
-    button {
-        margin-inline: 2px;
-        color: whitesmoke;
-        padding: 5px;
-        background-color: rgba(0, 0, 0, 0.838);
-        cursor: pointer;
-    }
-};
+  button {
+    margin-inline: 2px;
+    color: whitesmoke;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.838);
+    cursor: pointer;
+  }
+}
